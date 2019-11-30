@@ -338,6 +338,10 @@ article {
   grid-template-columns: 1.5fr 3fr 1fr;
   margin: auto auto 300px auto;
   grid-template-rows: max-content; }
+  @media (max-width: 800px) {
+    article {
+      display: block;
+      margin: 1em; } }
   article h2, article h3, article h5, article p, article .ba-slider, article .content {
     grid-column: 2/3; }
   article p {
