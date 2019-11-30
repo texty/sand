@@ -331,6 +331,7 @@ header {
   background: url("../img/sand-9.jpg");
   display: flex; }
   header h1 {
+    text-align: center;
     margin: auto; }
 
 article {
