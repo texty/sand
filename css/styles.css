@@ -90,7 +90,10 @@
 #soc {
   display: flex;
   justify-content: flex-end;
-  margin-right: 20px; }
+  margin-right: 20px;
+  position: fixed;
+  right: 0;
+  top: 10px; }
   #soc div#translate {
     display: flex; }
   #soc a {
@@ -109,7 +112,7 @@
         font-size: 14px; } }
   #soc i {
     font-size: 40px;
-    color: #cdcdcd;
+    color: #464242;
     margin: 0 0 0 0.5em;
     max-height: 1em;
     transition: all 0.5s; }

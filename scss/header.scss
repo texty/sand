@@ -35,6 +35,9 @@
   display:flex;
   justify-content: flex-end;
   margin-right:20px;
+  position: fixed;
+  right: 0;
+  top:10px;
 
   div#translate {
     display:flex;
@@ -52,7 +55,7 @@
     font-size:20px;
     letter-spacing: 1px;
     color:black!important;
-    background-color:rgba(225,225,225,0.7);
+    background-color: rgba(225,225,225,0.7);
     @media #{$large}{
       font-size:14px;
     }
@@ -61,7 +64,7 @@
 
   i {
     font-size:40px;
-    color: lighten($grey-color, 30%);
+    color: #464242;
     margin: 0 0 0 0.5em;
     max-height: 1em;
     transition: all 0.5s;
