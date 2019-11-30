@@ -15,7 +15,7 @@
   width:200px;
   grid-column: 1/2;
   @media #{$large}{
-    width:250px;
+    width:200px;
   }
   @media #{$mobile} {
     width:120px;
