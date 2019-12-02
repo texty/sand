@@ -330,20 +330,27 @@ header {
   height: 70vh;
   background: url("../img/sand-9.jpg");
   display: flex; }
-  header h1 {
-    text-align: center;
-    margin: auto; }
+  header div {
+    width: 50%;
+    margin: auto auto 0 27%; }
+    @media (max-width: 800px) {
+      header div {
+        width: 80%;
+        margin: auto auto 0 10%; } }
+  header img {
+    width: 100%;
+    height: auto; }
 
 article {
   display: grid;
-  grid-template-columns: 1.5fr 3fr 1fr;
+  grid-template-columns: 1.2fr 3fr 0.8fr;
   margin: auto auto 300px auto;
   grid-template-rows: max-content; }
   @media (max-width: 800px) {
     article {
       display: block;
       margin: 1em; } }
-  article h2, article h3, article h5, article p, article .ba-slider, article .content {
+  article h2, article h3, article h5, article p, article text, article .ba-slider, article .content {
     grid-column: 2/3; }
   article p {
     margin: 10px 0; }
@@ -366,20 +373,24 @@ article {
     margin: 10px 0; }
   article .content {
     margin: 50px 0; }
-    article .content text {
-      font-size: 14px; }
+  article text {
+    width: max-content;
+    font-size: 15px;
+    margin-top: 50px; }
+  article .full-screen-content {
+    grid-column: 1/-1;
+    display: block; }
   article aside {
     margin: 10px 0;
     grid-column: 1/2;
     grid-row: span 4; }
     article aside img {
-      width: 90%;
-      margin: 0 5%; }
+      width: 80%;
+      margin: 0 10%; }
   article .wide {
+    display: block;
     grid-column: 1/-1;
-    max-height: 100vh;
-    max-width: 100%;
-    width: auto;
+    width: 85%;
     margin: 20px auto; }
 
 /*# sourceMappingURL=styles.css.map */
