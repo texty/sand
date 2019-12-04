@@ -107,7 +107,9 @@ article {
     margin: 10px 0;
     grid-column: 1/2;
     display: flex;
-    //grid-row: span 4;
+    @media(max-width: 800px) {
+      display: none;
+    }
 
     img {
       width:100%;
@@ -116,7 +118,6 @@ article {
   }
 
   .wide {
-    display: block;
     grid-column: 1/-1;
     //max-height: 100vh;
     //max-width: 100%;
@@ -125,6 +126,21 @@ article {
     @media(max-width: 800px){
       width: 100%;
     }
+  }
+}
+
+
+.mobily-only {
+  display: none;
+  @media(max-width: 800px) {
+    display: block;
+  }
+}
+
+.desktop-only {
+  display: block;
+  @media(max-width: 800px) {
+    display: none !important;
   }
 }
 

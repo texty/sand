@@ -386,16 +386,30 @@ article {
     margin: 10px 0;
     grid-column: 1/2;
     display: flex; }
+    @media (max-width: 800px) {
+      article aside {
+        display: none; } }
     article aside img {
       width: 100%;
       margin: auto; }
   article .wide {
-    display: block;
     grid-column: 1/-1;
     width: 100%;
     margin: 20px auto; }
     @media (max-width: 800px) {
       article .wide {
         width: 100%; } }
+
+.mobily-only {
+  display: none; }
+  @media (max-width: 800px) {
+    .mobily-only {
+      display: block; } }
+
+.desktop-only {
+  display: block; }
+  @media (max-width: 800px) {
+    .desktop-only {
+      display: none !important; } }
 
 /*# sourceMappingURL=styles.css.map */
