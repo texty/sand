@@ -42,9 +42,6 @@ article {
   grid-template-columns: 1fr 3.2fr 0.8fr;
   margin: auto auto 300px auto;
   grid-template-rows: max-content;
-  @media(max-width: 1300px){
-    grid-template-columns: 1.7fr 3fr 0.8fr;
-  }
   @media(max-width: 800px){
     display: block;
     margin: 1em;
