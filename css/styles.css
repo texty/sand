@@ -329,6 +329,7 @@ header {
   padding: 0;
   height: 70vh;
   background: url("../img/sand-9.jpg");
+  background-size: cover;
   display: flex; }
   header div {
     width: 50%;
@@ -336,7 +337,7 @@ header {
     @media (max-width: 800px) {
       header div {
         width: 80%;
-        margin: auto auto 0 10%; } }
+        margin: auto; } }
   header img {
     width: 100%;
     height: auto; }
