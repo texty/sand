@@ -351,7 +351,7 @@ article {
     article {
       display: block;
       margin: 1em; } }
-  article h2, article h3, article h5, article p, article text, article .ba-slider, article .content {
+  article h2, article h3, article h5, article p, article .text, article .ba-slider, article .content {
     grid-column: 2/3; }
   article p {
     margin: 10px 0; }
@@ -376,10 +376,10 @@ article {
     margin: 10px 0; }
   article .content {
     margin: 0; }
-  article text {
-    width: max-content;
+  article .text {
     font-size: 15px;
-    margin-top: 50px; }
+    margin-top: 50px;
+    font-weight: 100; }
   article .full-screen-content {
     grid-column: 1/-1;
     display: block; }
@@ -396,7 +396,7 @@ article {
   article .wide {
     grid-column: 1/-1;
     width: 100%;
-    margin: 20px auto; }
+    margin: 0 auto; }
     @media (max-width: 800px) {
       article .wide {
         width: 100%; } }
