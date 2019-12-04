@@ -39,7 +39,7 @@ header {
 
 article {
   display: grid;
-  grid-template-columns: 1.2fr 3fr 0.8fr;
+  grid-template-columns: 1fr 3.2fr 0.8fr;
   margin: auto auto 300px auto;
   grid-template-rows: max-content;
   @media(max-width: 1300px){
@@ -88,7 +88,8 @@ article {
   }
 
   .content {
-    margin: 50px 0;
+    margin: 0;
+
   }
 
   text {
@@ -105,11 +106,12 @@ article {
   aside {
     margin: 10px 0;
     grid-column: 1/2;
-    grid-row: span 4;
+    display: flex;
+    //grid-row: span 4;
 
     img {
-      width:80%;
-      margin: 0 10%;
+      width:100%;
+      margin: auto;
     }
   }
 
@@ -118,7 +120,7 @@ article {
     grid-column: 1/-1;
     //max-height: 100vh;
     //max-width: 100%;
-    width: 85%;
+    width: 100%;
     margin: 20px auto;
     @media(max-width: 800px){
       width: 100%;
