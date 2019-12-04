@@ -120,8 +120,6 @@ article {
 
   .wide {
     grid-column: 1/-1;
-    //max-height: 100vh;
-    //max-width: 100%;
     width: 100%;
     margin: 0 auto 10px auto;
     @media(max-width: 800px){
