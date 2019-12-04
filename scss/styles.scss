@@ -71,6 +71,10 @@ article {
     font-weight: 500;
   }
 
+  a {
+    color: #FE7200;
+  }
+
   p.note {
     font-size: 15px;
     font-weight: 300;
@@ -81,7 +85,7 @@ article {
     &::before {
       display: block;
       content: "";
-      border-top: .3rem solid orange;
+      border-top: .3rem solid #FE7200;
       width: 20%;
       margin: 10px 0;
     }

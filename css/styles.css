@@ -364,6 +364,8 @@ article {
   article h5 {
     font-size: 16px;
     font-weight: 500; }
+  article a {
+    color: #FE7200; }
   article p.note {
     font-size: 15px;
     font-weight: 300;
@@ -371,7 +373,7 @@ article {
   article .orange::before {
     display: block;
     content: "";
-    border-top: .3rem solid orange;
+    border-top: .3rem solid #FE7200;
     width: 20%;
     margin: 10px 0; }
   article .content {
